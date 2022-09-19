@@ -3,10 +3,12 @@ Jobs:
   - Name: test1
     Command: test1.sh
     Frequency: 2m
+    Type: bash
     Tag: test1
     Log: test1.log
   - Name: test2
     Command: test2.sh
     Frequency: 2m
+    Type: bash
     Tag: test2
     Log: test2.log
